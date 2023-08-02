@@ -969,6 +969,46 @@ Banner Style
   border-bottom: 3px solid #ff685f;
 }
 
+#social-media {
+  list-style: none; 
+  padding: 10px;
+}
+
+#social-media li {
+  display: inline-block; 
+  margin-right: 10px; 
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+#social-media li:last-child {
+  margin-right: 0; 
+}
+
+#social-media li a i {
+  font-size: 35px;
+}
+
+.telegram-button, .youtube-button {
+  display: inline-block;
+  background-color: #0088cc;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 5px;
+  overflow: hidden;
+}
+.youtube-button {
+  background-color: #ff0000;
+}
+.logo {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+
 
 /* 
 ---------------------------------------------
